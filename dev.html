@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>henrygd</title>
+  <link rel="shortcut icon" href="img/favicon.png"/>
+  <base target="_blank">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600|Rock+Salt' rel='stylesheet' type='text/css'>
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/static-contact-form.css">
+  <!-- endinject -->
+</head>
+<body>
+  <div class="container">
+
+    <div class="header wave-background" id="header">
+      <h2>Henry Dollman</h2>
+      <div class="wave-svg" id="wave-svg"></div>
+    </div>
+
+    <main class="main">
+      <h2 class="heading">PERSONAL PROJECTS</h2>
+      <p class="subheading">In reverse chronological order. It gets progressively worse, but I've left everything mostly as is.</p>
+      <div class="portfolio" id="portfolio">
+        <div class="view-more button" id='show_more'>Please enable javascript!</div>
+      </div>
+      <h2 class="heading">CONTACT ME</h2>
+      <p class="subheading">Or email directly: <a href="mailto:hank@henrygd.me">hank@henrygd.me</a></p>
+      <form id="static_contact_form"></form>
+    </main>
+
+  </div>
+    <div class="footer wave-background">
+      <p>Thanks for visiting! (I am not @henrydollman on twitter)</p>
+    </div>
+  <!-- inject:js -->
+  <script src="/js/portfolio.js"></script>
+  <script src="/js/static-contact-form.js"></script>
+  <script src="/js/wave-animation.js"></script>
+  <!-- endinject -->
+  <script>
+    // hanksPortfolio.initiate();
+    StaticContactForm.initiate({
+      key: '-sihpgXHpQ_VsQ',
+      email: 'hank@henrygd.me'
+    });
+  </script>
+</body>
+</html>
