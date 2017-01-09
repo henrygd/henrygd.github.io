@@ -6,6 +6,14 @@
   var styleTag = doc.createElement('STYLE');
   var projects = [
     {
+      title: 'Stories on a Map',
+      img: 'soam-react',
+      info: 'Stories application redesigned with React + Redux and Rails 5 JSON API.',
+      url: 'https://storiesonamap.henrygd.me',
+      // github: 'hockey-sim',
+      lang: 'react'
+    },
+    {
       title: 'Hockey Sim',
       img: 'hockeysim',
       info: 'Simulate games between any two hockey teams.',
@@ -37,19 +45,19 @@
       lang: 'js'
     },
     {
-      title: 'Stories on a Map',
-      img: 'soam',
-      info: 'Read & submit stories arranged by approximate geographic location.',
-      url: 'http://storiesonamap.henrygd.me',
-      github: 'stories-on-a-map',
+      title: 'Email Relay',
+      img: 'emailrelay',
+      info: "Free email for static sites. Capped at 45 per week.",
+      url: 'http://emailrelay.henrygd.me',
+      github: 'email-relay-server',
       lang: 'ruby'
     },
     {
-      title: 'Email Relay',
-      img: 'emailrelay',
-      info: "Free email for static sites. Capped at fifteen per day.",
-      url: 'http://emailrelay.henrygd.me',
-      github: 'email-relay-server',
+      title: 'Stories on a Map',
+      img: 'soam',
+      info: 'Read & submit stories arranged by approximate geographic location.',
+      url: 'http://storiesonamap-original.henrygd.me',
+      github: 'stories-on-a-map',
       lang: 'ruby'
     },
     {
