@@ -162,7 +162,7 @@
     var loopLength = projects.length > 6 ? 6 : projects.length;
     for (var i = 0; i < loopLength; i++) {
       var project = projects.shift();
-      projectHTML += 
+      projectHTML +=
         '<div class="project" style="background-image:url(img/' + project.img + '.jpg)">' +
           '<H4 class="' + (project.lang || "html") + '-logo">' + project.title + '</H4>' +
           '<div class="project-info"><p>' + project.info + '</p></div>' +
@@ -190,7 +190,7 @@
         var style = 'transform:translate3d(-50%, ' + i + height + 'px, 0);';
         return '-webkit-' + style + style;
       }
-      innerStyle += '.project:nth-child(' + (index + 1) + '):hover h4{' + getStyle('-') + 
+      innerStyle += '.project:nth-child(' + (index + 1) + '):hover h4{' + getStyle('-') +
         '}.project:nth-child(' + (index + 1) + '):hover .project-buttons{' + getStyle('') + '}';
     });
     styleTag.innerHTML = innerStyle;
@@ -198,10 +198,10 @@
   }
 
   function updateProjectCount() {
-    var count = projects.length > 6 ? 6 : projects.length;
+    var count = projects.length;
     var message;
     if (count > 0) {
-      message = 'Show next ' +  count;
+      message = 'Show more (' +  count + ' remaining)';
     } else {
       message = "That's all for now";
       showMoreButton.className += ' hide-before';
