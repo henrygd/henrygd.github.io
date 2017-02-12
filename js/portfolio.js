@@ -8,9 +8,9 @@
     {
       title: 'Stories on a Map',
       img: 'soam-react',
-      info: 'Stories application redesigned with React + Redux and Rails 5 JSON API.',
+      info: 'Stories application redesigned with React + Redux and Rails 5 API.',
       url: 'https://storiesonamap.henrygd.me',
-      // github: 'hockey-sim',
+      github: 'stories-on-a-map',
       lang: 'react'
     },
     {
@@ -57,7 +57,7 @@
       img: 'soam',
       info: 'Read & submit stories arranged by approximate geographic location.',
       url: 'http://storiesonamap-original.henrygd.me',
-      github: 'stories-on-a-map',
+      github: 'stories-on-a-map-original',
       lang: 'ruby'
     },
     {
