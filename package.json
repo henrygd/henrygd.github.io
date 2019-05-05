@@ -5,12 +5,22 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "rm -rf ./dist && parcel build index.html && cp CNAME ./dist"
+    "build": "rm -rf ./dist && parcel build index.html && cp CNAME ./dist && cp readme.md ./dist && cp favicon.ico ./dist",
+    "deploy": "npm run build && gh-pages -b master -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrygd/henrygd.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henrygd/henrygd.github.io/issues"
+  },
+  "homepage": "https://github.com/henrygd/henrygd.github.io#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "gh-pages": "^2.0.1"
   }
 }
