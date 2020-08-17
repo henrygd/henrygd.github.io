@@ -11,6 +11,7 @@
         margin: 0;
         padding: 0;
         background-color: #fff;
+        font-family: 'Comic Sans MS', sans-serif;
       }
       .main {
         padding: 4vh 6%;
@@ -19,6 +20,10 @@
         width: 100%;
         max-width: 690px;
         margin: 0 auto;
+      }
+      h1 {
+        font-size: 2em;
+        font-family: 'Papyrus', 'Comic Sans MS', sans-serif;
       }
       p {
         line-height: 1.6;
@@ -77,7 +82,7 @@
         let ytActive = false
         let initiated = false
 
-        ytLink.addEventListener('click', e => {
+        ytLink.addEventListener('click', (e) => {
           e.preventDefault()
           if (!ytActive) {
             showYoutube()
